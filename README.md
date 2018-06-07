@@ -50,8 +50,10 @@ implementation and a visual implementation. If each of the words before were
 buttons that you could attach click handlers to, how will you now map where
 users click in an image and turn that click into an identifying symbol?
 
-<img src="./assets/01.png" width="400px" />
-<img src="./assets/55.png" width="400px" />
+<p>
+<img src="./assets/01.png" max-width="40%" />
+<img src="./assets/55.png" max-width="40%" />
+</p>
 
 ## Stretch Goals
 * Design your app so it tracks scores for multiple people.
