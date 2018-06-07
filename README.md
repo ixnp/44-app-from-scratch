@@ -50,9 +50,30 @@ implementation and a visual implementation. If each of the words before were
 buttons that you could attach click handlers to, how will you now map where
 users click in an image and turn that click into an identifying symbol?
 
+In order to integrate the images you'll need to manually figure out how to
+label the different symbols, and manually enter each symbols position on the
+card. Make sure you use the same canonical name for each symbol as it appears
+on different cards!
+
+**Note:** None of the images are guaranteed to be exactly the same size.
+They've all been cropped as best I could, but slight differences in camera
+angle and physical card position may make things different. 
+
+When you record the position of each symbol on a card it is highly recommended
+to not store that data as "pixels." Store the position data as a percentage
+of the width and height of the image. Pixels units may vary across different
+devices and zoom levels. Percentages never change.
+
+You don't have to use the images provided. You may find it easier to crop
+certain symbols out of these images, or use your own symbol set and create your
+own cards and images.
+
+You don't need to use all the cards images! Choose only a few to work with,
+then add more once your app works.
+
 <p>
-<img src="./assets/01.png" max-width="40%" />
-<img src="./assets/55.png" max-width="40%" />
+  <img src="./assets/01.png" max-width="40%" />
+  <img src="./assets/55.png" max-width="40%" />
 </p>
 
 ## Stretch Goals
