@@ -22,13 +22,13 @@ export default class SpotIt extends Component {
         Guesses Left: {this.state.guessesLeft}
         </div> 
       <div>
-        {this.state.card1.map((symbol,i) => {
-          return <span key={i} onClick={() => this.handelClick(symbol)}>{symbol} </span>
+        {this.state.card1.map((symbol, i) => {
+          return <button key={i} onClick={() => this.handelClick(symbol)}>{symbol} </button>
         })}
       </div>
       <div>  
       {this.state.card2.map((symbol, i) => {
-           return <span key={i} onClick={() => this.handelClick(symbol)}>{symbol} </span>
+           return <button key={i} onClick={() => this.handelClick(symbol)}>{symbol} </button>
         })}</div>
       
       </Fragment>
